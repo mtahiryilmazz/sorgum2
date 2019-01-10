@@ -1,5 +1,5 @@
 {
-  "name": "SORGUM2",
+  "name": "sorgum2",
   "productName": "SORGUM2",
   "version": "2019.0.0",
   "description": "Metrekare bedeli sorgulama uygulamasi",
@@ -39,11 +39,3 @@
   },
   "homepage": "https://github.com/mtahiryilmazz/sorgum2#readme"
 }
-
-"scripts": {
-     "package-mac": "electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=‪ico\app.ico --prune=true --out=release-builds",
-     "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=‪ico\app.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"SORGUM2\"",
-     "package-linux": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --icon=‪ico\app.png --prune=true --out=release-builds",
-     "create-installer-mac": "electron-installer-dmg ./release-builds/Electron\\ tutorial\\ app-darwin-x64/Electron\\ tutorial\\ app.app electron-tutorial-app --out=release-builds --overwrite --icon=‪ico\app.ico",
-     "create-installer-win": "node installers/windows/createinstaller.js"
- }

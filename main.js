@@ -1,12 +1,3 @@
- //handle setupevents as quickly as possible
- const setupEvents = require('./installers/setupEvents')
- if (setupEvents.handleSquirrelEvent()) {
-    // squirrel event handled and app will exit in 1000ms, so don't do anything else
-    return;
- }
-
-const electron = require('electron')
-
 //Electron paketini kullanarak bir uygulama oluşuturuyoruz.
 const {app, BrowserWindow, Tray} = require('electron')
 // Import the Nucleus Library and init with your app id
@@ -24,7 +15,7 @@ win = new BrowserWindow({
 width: 600,
 height: 600,
 titleBarStyle: 'hidden',
-icon: path.join(__dirname, 'm2.ico'),
+icon: path.join(__dirname, 'ico/app.ico'),
 resizable: false,
 })
 win.setMenu(null)
