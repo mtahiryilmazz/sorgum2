@@ -1,42 +1,21 @@
-body {
-  background: linear-gradient(#13152df0, #2e99ab);
-  height: 550px;
-}
-
 .applogo {
-    height: 110px;
-    width: 400px;
+    height: 130px;
+    width: 450px;
     }
 
 .bslk01 {
 text-align: center;
-color: #e3e4ea;
-font-size: 29pt;
-font-family: system-ui;
+color: #1e4c59;
+font-size: 35pt;
+font-family: calibri, sans-serif;
 font-weight:bold;
-}
-
-.bslk02 {
-text-align: center;
-color: #e3e4ea;
-font-size: 15pt;
-font-family: system-ui;
-font-weight:bold;
-}
-
-.bslk03 {
-text-align: center;
-color: #e3e4ea;
-font-size: 18pt;
-font-family: system-ui;
-font-weight:bolder;
 }
 
 .bslk04 {
 text-align: center;
-color: #e3e4ea;
-font-size: 8pt;
-font-family: system-ui;
+color: #1e4c59;
+font-size: 9pt;
+font-family: calibri, sans-serif;
 font-weight:bold;
 }
 
@@ -45,35 +24,58 @@ height: 110px;
 width: 400px;
 }
 
+.bslk02 {
+text-align: center;
+color: #1e4c59;
+font-size: 16pt;
+font-family: calibri, sans-serif;
+font-weight:bold;
+}
+
+.bslk03 {
+text-align: center;
+color: #1e4c59;
+font-size: 20pt;
+font-family: calibri, sans-serif;
+font-weight:bolder;
+}
+
 .bg{
 text-align: center;
 background-repeat:no-repeat;
-background-size:cover;
---background-size:cover;
+background-size:contain;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 }
 
+.btn{
+text-align: center;
+font-weight: bolder;
+font-size: 15pt;
+color: #00597d;
+width:120px;
+height:50px;
+}
+
+
 .list{
-border-radius: 15px;
 text-align: left;
 text-align-last: left;
-width:270px;
-height:45px;
-color: #282828;
+width:250px;
+height:50px;
+color: #00597d;
 font-size:15pt;
-font-family: system-ui;
+font-family: calibri, sans-serif;
 font-weight:bolder;
 }
 
 .list2{
-border-radius: 15px;
 text-align: center;
 text-align-last: center;
-color: #282828;
+color: #00597d;
 font-size:25pt;
-font-family: system-ui;
+font-family: calibri, sans-serif;
 font-weight:bolder;
 width:180px;
 height:60px;

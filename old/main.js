@@ -5,11 +5,6 @@ var path = require('path')
 const { dialog } = require('electron')
 const Swal = require('sweetalert2')
 
-require('update-electron-app')({
-  repo: 'mtahiryilmazz/sorgum2',
-  updateInterval: '10 hour',
-  logger: require('electron-log')
-})
 // this should be placed at top of main.js to handle setup events quickly
 if (handleSquirrelEvent(app)) {
     // squirrel event handled and app will exit in 1000ms, so don't do anything else
