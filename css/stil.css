@@ -1,16 +1,20 @@
 .applogo {
-    text-align: center;
-    color: #18368c;
-    font-size: 40pt;
-    font-family: calibri, sans-serif;
-    font-weight:bolder;
+    height: 130px;
+    width: 450px;
     }
 
-    
 .bslk01 {
 text-align: center;
-color: #18368c;
-font-size: 15pt;
+color: #1e4c59;
+font-size: 35pt;
+font-family: calibri, sans-serif;
+font-weight:bold;
+}
+
+.bslk04 {
+text-align: center;
+color: #1e4c59;
+font-size: 9pt;
 font-family: calibri, sans-serif;
 font-weight:bold;
 }
@@ -22,7 +26,7 @@ width: 400px;
 
 .bslk02 {
 text-align: center;
-color: #333333;
+color: #1e4c59;
 font-size: 16pt;
 font-family: calibri, sans-serif;
 font-weight:bold;
@@ -30,7 +34,7 @@ font-weight:bold;
 
 .bslk03 {
 text-align: center;
-color: #333333;
+color: #1e4c59;
 font-size: 20pt;
 font-family: calibri, sans-serif;
 font-weight:bolder;
@@ -39,7 +43,7 @@ font-weight:bolder;
 .bg{
 text-align: center;
 background-repeat:no-repeat;
-background-size:cover;
+background-size:contain;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -49,7 +53,7 @@ background-size:cover;
 text-align: center;
 font-weight: bolder;
 font-size: 15pt;
-color: #003366;
+color: #00597d;
 width:120px;
 height:50px;
 }
@@ -60,7 +64,7 @@ text-align: left;
 text-align-last: left;
 width:250px;
 height:50px;
-color: #333333;
+color: #00597d;
 font-size:15pt;
 font-family: calibri, sans-serif;
 font-weight:bolder;
@@ -69,7 +73,7 @@ font-weight:bolder;
 .list2{
 text-align: center;
 text-align-last: center;
-color: #333333;
+color: #00597d;
 font-size:25pt;
 font-family: calibri, sans-serif;
 font-weight:bolder;
@@ -81,18 +85,6 @@ pointer-events: none;
 -o-appearance: none; /* Opera */
 -ms-appearance: none; /* Internet Explorer */
 appearance: none; /* CSS3 */
-}
-
-.snslogo{
--webkit-user-drag:none;/* WebKit */
--khtml-user-drag:none;
--o-user-drag:none; /* Opera */
--moz-user-drag:none; /* Mozilla */
--ms--user-drag:none; /* Internet Explorer */
--user-drag:none; /* CSS3 */
- width:15px;
- display: block;
- border-radius: 50%;
 }
 
 .unselectable {
@@ -107,7 +99,19 @@ user-select: none; /* CSS3 */
 
 .sns{
 font-family: Arial;
-padding: 0 4px 0 0;"
+padding: 0 5px 0 0;"
+}
+
+.snslogo{
+-webkit-user-drag:none;/* WebKit */
+-khtml-user-drag:none;
+-o-user-drag:none; /* Opera */
+-moz-user-drag:none; /* Mozilla */
+-ms--user-drag:none; /* Internet Explorer */
+-user-drag:none; /* CSS3 */
+ width:15px;
+ display: block;
+ border-radius: 50%;
 }
 
 footer {
