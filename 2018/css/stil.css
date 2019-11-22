@@ -3,41 +3,44 @@
     width: 450px;
     }
 
+.bslk00 {
+text-align: center;
+color: #063269;
+font-size: 50pt;
+font-family: 'Rammetto One', cursive;
+font-weight:bold;
+}
+
 .bslk01 {
 text-align: center;
-color: #1e4c59;
-font-size: 35pt;
-font-family: calibri, sans-serif;
+color: #063269;
+font-size: 29pt;
+font-family: system-ui;
 font-weight:bold;
-}
-
-.bslk04 {
-text-align: center;
-color: #1e4c59;
-font-size: 9pt;
-font-family: calibri, sans-serif;
-font-weight:bold;
-}
-
-div img{
-height: 110px;
-width: 400px;
 }
 
 .bslk02 {
 text-align: center;
-color: #1e4c59;
-font-size: 16pt;
-font-family: calibri, sans-serif;
+color: #063269;
+font-size: 15pt;
+font-family: system-ui;
 font-weight:bold;
 }
 
 .bslk03 {
 text-align: center;
-color: #1e4c59;
-font-size: 20pt;
-font-family: calibri, sans-serif;
+color: #063269;
+font-size: 18pt;
+font-family: system-ui;
 font-weight:bolder;
+}
+
+.bslk04 {
+text-align: center;
+color: #063269;
+font-size: 8pt;
+font-family: system-ui;
+font-weight:bold;
 }
 
 .bg{
@@ -62,20 +65,20 @@ height:50px;
 .list{
 text-align: left;
 text-align-last: left;
-width:250px;
-height:50px;
-color: #00597d;
+width:270px;
+height:45px;
+color: #063269;
 font-size:15pt;
-font-family: calibri, sans-serif;
+font-family: system-ui;
 font-weight:bolder;
 }
 
 .list2{
 text-align: center;
 text-align-last: center;
-color: #00597d;
+color: #063269;
 font-size:25pt;
-font-family: calibri, sans-serif;
+font-family: system-ui;
 font-weight:bolder;
 width:180px;
 height:60px;
@@ -109,7 +112,7 @@ padding: 0 5px 0 0;"
 -moz-user-drag:none; /* Mozilla */
 -ms--user-drag:none; /* Internet Explorer */
 -user-drag:none; /* CSS3 */
- width:15px;
+ width:13px;
  display: block;
  border-radius: 50%;
 }
