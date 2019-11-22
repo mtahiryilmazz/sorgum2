@@ -5,24 +5,25 @@
     <script language="javascript" src="js/rayic.js"></script>
 	<script src="js/sweetalert2.min.js"></script>
 <link rel="stylesheet" href="css/sweetalert2.min.css">
-  <head>
+	
+<head>
     <meta charset="UTF-8">
     <title>SORGUM²</title></center>
 <link href="https://fonts.googleapis.com/css?family=Rammetto+One&display=swap" rel="stylesheet">
   </head>
+
   <span class="bslk00">SORGUM<sup>2</sup></span><br>
   <span class="bslk01">KOZAN 2019</span><br>
     <span class="bslk04">"M² BİRİM BEDEL SORGULAMA UYGULAMASI"</span>
   <body style="text-align: center" onload="initListGroup('chainedmenu', document.listmenu0.firstlevel, document.listmenu0.secondlevel, document.listmenu0.thirdlevel, 'savestate')"
-  class="circles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
-	  <br><br>
+  class="circles"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><br><br>
+	  
 <form name="listmenu0">
 <table style="border-spacing: 10px" align="center"><tr><center><td><p>
 <td><p><center><span class="bslk02">MAHALLE SEÇİNİZ</span></center></p>
 <select class="list" name="firstlevel"></select></td>
 <td><p><center><span class="bslk02">CADDE/SOKAK SEÇİNİZ</span></center></p>
-&nbsp&nbsp<select class="list" name="secondlevel"></select></td></tr></table>
-<br>
+&nbsp&nbsp<select class="list" name="secondlevel"></select></td></tr></table><br>
 <p><center><span class="bslk03">M<sup>2</sup> BİRİM BEDELİ</span></center></p>
 <select class="list2" name="thirdlevel"></select>
 </form>
@@ -34,7 +35,9 @@
       require('./renderer.js')
       require('./js/rayic.js')
     </script>
+	
       </body>
+	  
       <footer>
           <table style="background-color:white; height: 43px; width: 100%;"><tr>  <td valign="top" style="vertical-align: top;" width="43"> <img alt="" width="43" src="img/thr01.png" draggable="false"></td>
           
@@ -47,19 +50,15 @@
           <tr><td style="padding: 3px 0;font-size: 1.2em;color: #292929;">Grafik Tasarımcı &amp; Programcı</td></tr>
           
           <tr><td><table cellspacing="0" cellpadding="0" border="0"><tr>
-          
           <td class="sns"><a href="https://www.facebook.com/mtahiryilmazz" target="_blank"><img class="snslogo" alt="facebook" src="img/fb.png"></a></td>
-          
           <td class="sns"><a href="https://twitter.com/mtahiryilmazz" target="_blank"><img class="snslogo" alt="twitter" src="img/twt.png"></a></td>
-          
           <td class="sns"><a href="https://www.linkedin.com/in/mtahiryilmazz/" target="_blank"><img class="snslogo" alt="linkedin" src="img/in.png"></a></td>
-          
           <td class="sns"><a href="https://github.com/mtahiryilmazz" target="_blank"><img class="snslogo" alt="github" src="img/git.png"></a></td>
-          
           </tr></table></td></tr></table></td></tr></table>
           
           <table class="branding" cellspacing="0" cellpadding="0" border="0"><tr><td style="padding:15px 0 0 0;"></td></tr></table>
           </footer>
+	  
 		  <script>
 // Import the Nucleus Library and init with your app id
 const Nucleus = require('electron-nucleus')('5c3996dd818e7500ced59c94')
@@ -97,4 +96,5 @@ window.close();
 }
 })
 </script>
+	  
 </html>
