@@ -52,39 +52,4 @@
     </tr></table></td></tr></table></td></tr></table>
     <table class="branding" cellspacing="0" cellpadding="0" border="0"><tr><td style="padding:15px 0 0 0;"></td></tr></table>
 </footer>
-<script>
-// Import the Nucleus Library and init with your app id
-const Nucleus = require('electron-nucleus')('5c3996dd818e7500ced59c94')
-// Optional: report an event
-Nucleus.track('BUTTON_CLICKED')
-Nucleus.checkLicense('7b7ff8a4699f2f1d6b2d', (err, license) => {
-    if (err) return console.error(err)
-    if (license.valid) {
-    } else {
-let timerInterval
-  swal({
-  type:'error',
-  title: 'Etkinleştirme Başarısız',
-  html: 'Uygulama <strong></strong> saniye içinde kapanacaktır.',
-  footer: '<b>Etkinleştirme Talebi İçin:05464450443</b>',
-  timer: 10000,
- 
-  onOpen: () => {
-      swal.showLoading()
-      timerInterval = setInterval(() => {
-        swal.getContent().querySelector('strong')
-          .textContent = Math.ceil(swal.getTimerLeft() / 1000)
-      }, 100)
-    },
-    onClose: () => {
-      clearInterval(timerInterval)
-    }
-  }).then((result) => {
-window.close();
-  })
-  //app.close();
-//dialog.showErrorBox('Hata! Geçerli lisans bulunamadı','Geliştiriciyle iletişime geçerek Lisans alabilirsiniz. Tel5464450443')
-}
-})
-</script>
 </html>
