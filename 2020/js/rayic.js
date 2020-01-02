@@ -2245,7 +2245,6 @@ addList("mah103","Şahintepesi Sk.", "", "Şahintepesi Sk.1861");
 
 
 
-
 //FİYAT LİSTESİ
 addOption("Ağcaören Sk.01","4,35 TL","mah01", 1);
 addOption("Ağlidere Sk.02","4,35 TL","mah01", 1);
