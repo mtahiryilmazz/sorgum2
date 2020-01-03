@@ -55,6 +55,21 @@ font-family: system-ui;
 font-weight:bold;
 }
 
+.bslk05 {
+text-align: center;
+color: #e3e4ea;
+font-size: 11pt;
+font-family: system-ui;
+font-weight:bold;
+}
+
+.bslk06 {
+text-align: center;
+color: #e3e4ea;
+font-size: 10pt;
+font-family: system-ui;
+font-weight:bold;
+}
 
 .list{
 border-radius: 15px;

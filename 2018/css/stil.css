@@ -10,10 +10,6 @@ justify-content: center;
 align-items: center;
 }
 
-body {
-  background: url(img/plan.jpg);
-}
-
 .applogo {
     height: 110px;
     width: 400px;
@@ -55,6 +51,22 @@ font-weight:bolder;
 text-align: center;
 color: #063269;
 font-size: 8pt;
+font-family: system-ui;
+font-weight:bold;
+}
+
+.bslk05 {
+text-align: center;
+color: #063269;
+font-size: 11pt;
+font-family: system-ui;
+font-weight:bold;
+}
+
+.bslk06 {
+text-align: center;
+color: #063269;
+font-size: 10pt;
 font-family: system-ui;
 font-weight:bold;
 }
