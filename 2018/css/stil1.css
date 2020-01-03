@@ -1,22 +1,6 @@
-html { 
-background: url(../img/plan.jpg);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-background-size: cover;
-overflow: hidden;
-justify-content: center;
-align-items: center;
-}
-
-body {
-  background: url(img/plan.jpg);
-}
-
 .applogo {
-    height: 110px;
-    width: 400px;
+    height: 130px;
+    width: 450px;
     }
 
 .bslk00 {
@@ -59,9 +43,26 @@ font-family: system-ui;
 font-weight:bold;
 }
 
+.bg{
+text-align: center;
+background-repeat:no-repeat;
+background-size:contain;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+.btn{
+text-align: center;
+font-weight: bolder;
+font-size: 15pt;
+color: #00597d;
+width:120px;
+height:50px;
+}
+
 
 .list{
-border-radius: 15px;
 text-align: left;
 text-align-last: left;
 width:270px;
@@ -73,7 +74,6 @@ font-weight:bolder;
 }
 
 .list2{
-border-radius: 15px;
 text-align: center;
 text-align-last: center;
 color: #063269;
