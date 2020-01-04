@@ -18,7 +18,7 @@ align-items: center;
 .bslk00 {
 text-align: center;
 color: #e3e4ea;
-font-size: 50pt;
+font-size: -webkit-xxx-large;
 font-family: 'Rammetto One', cursive;
 font-weight:bold;
 }
@@ -26,7 +26,7 @@ font-weight:bold;
 .bslk01 {
 text-align: center;
 color: #e3e4ea;
-font-size: 29pt;
+font-size: xx-large;
 font-family: system-ui;
 font-weight:bold;
 }
@@ -34,7 +34,7 @@ font-weight:bold;
 .bslk02 {
 text-align: center;
 color: #e3e4ea;
-font-size: 15pt;
+font-size: medium;
 font-family: system-ui;
 font-weight:bold;
 }
@@ -42,7 +42,7 @@ font-weight:bold;
 .bslk03 {
 text-align: center;
 color: #e3e4ea;
-font-size: 18pt;
+font-size: large;
 font-family: system-ui;
 font-weight:bolder;
 }
@@ -58,7 +58,7 @@ font-weight:bold;
 .bslk05 {
 text-align: center;
 color: #e3e4ea;
-font-size: 11pt;
+font-size: medium;
 font-family: system-ui;
 font-weight:bold;
 }
@@ -66,33 +66,33 @@ font-weight:bold;
 .bslk06 {
 text-align: center;
 color: #e3e4ea;
-font-size: 10pt;
+font-size: small;
 font-family: system-ui;
 font-weight:bold;
 }
 
 .list{
-border-radius: 15px;
-text-align: left;
-text-align-last: left;
-width:270px;
-height:45px;
-color: #282828;
-font-size:15pt;
-font-family: system-ui;
-font-weight:bolder;
+    border-radius: 15px;
+    text-align: left;
+    text-align-last: left;
+    width: 145px;
+    height: 40px;
+    color: #282828;
+    font-family: system-ui;
+    font-size: medium;
+    font-weight: bolder;
 }
 
 .list2{
-border-radius: 15px;
-text-align: center;
-text-align-last: center;
-color: #282828;
-font-size:25pt;
-font-family: system-ui;
-font-weight:bolder;
-width:180px;
-height:60px;
+    border-radius: 15px;
+    text-align: center;
+    text-align-last: center;
+    color: #282828;
+    font-size: x-large;
+    font-family: system-ui;
+    font-weight: bolder;
+    width: 170px;
+    height: 40px;
 pointer-events: none;
 -webkit-appearance: none; /* WebKit */
 -moz-appearance: none; /* Mozilla */
