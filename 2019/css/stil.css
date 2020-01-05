@@ -1,7 +1,5 @@
 html { 
-background: linear-gradient(#13152df0, #2e99ab) no-repeat center center fixed; 
-width:x; height:y;
-background-size:100%
+background: linear-gradient(#13152df0, #2e99ab);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
