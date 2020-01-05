@@ -1,8 +1,13 @@
 html { 
 background: linear-gradient(#00060ef0, #001c40) no-repeat center center fixed;
+background: -webkit-linear-gradient(#00060ef0, #001c40);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
+background-repeat:no-repeat;
+background-position:center; 
+background-attachment: fixed;
+background-size: contain;
 background-size:cover;
 background-size: cover;
 overflow: hidden;

@@ -1,5 +1,5 @@
 html { 
-background: url(../img/plan.jpg) no-repeat center center fixed;;
+background: url(../img/plan.jpg) fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;

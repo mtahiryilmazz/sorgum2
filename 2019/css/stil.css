@@ -1,14 +1,15 @@
 html { 
-background: -webkit-linear-gradient(top, rgba(19, 21, 45, 0.94), rgb(46, 153, 171));
-background: linear-gradient(top, rgba(19, 21, 45, 0.94), rgb(46, 153, 171));
+background: linear-gradient(#13152df0, #2e99ab);
+background: -webkit-linear-gradient(#13152df0, #2e99ab);
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-repeat:no-repeat;
-background-position:center center; 
-background-attachment: fixed;
-background-size:contain;
+  background-position:center; 
+  background-attachment: fixed;
+  background-size: contain;
 background-size:cover;
+background-size: cover;
 overflow: hidden;
 justify-content: center;
 align-items: center;
