@@ -1,6 +1,6 @@
 html { 
 background: linear-gradient(#00060ef0, #001c40) no-repeat center center fixed;
-background: -webkit-linear-gradient(#00060ef0, #001c40);
+background: -webkit-linear-gradient(#00060ef0, #001c40) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
