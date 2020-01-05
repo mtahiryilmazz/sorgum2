@@ -1,5 +1,5 @@
 html { 
-background: url(../img/plan.jpg);
+background: url(../img/plan.jpg) no-repeat center center fixed;;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -76,7 +76,7 @@ font-weight:bold;
 border-radius: 15px;
 text-align: left;
 text-align-last: left;
-width:270px;
+width:45vw;
 height:45px;
 color: #063269;
 font-size:15pt;
