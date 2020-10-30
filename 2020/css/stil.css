@@ -129,7 +129,7 @@ padding: 0 5px 0 0;"
 -moz-user-drag:none; /* Mozilla */
 -ms--user-drag:none; /* Internet Explorer */
 -user-drag:none; /* CSS3 */
- width:13px;
+ width:17px;
  display: block;
  border-radius: 50%;
 }
