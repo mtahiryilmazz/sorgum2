@@ -114,7 +114,8 @@ user-select: none; /* CSS3 */
 
 .sns{
 font-family: Arial;
-padding: 0 5px 0 0;"
+padding: 0 3px 0 0;
+/*padding-right: 0px;*/
 }
 
 .snslogo{
@@ -124,9 +125,9 @@ padding: 0 5px 0 0;"
 -moz-user-drag:none; /* Mozilla */
 -ms--user-drag:none; /* Internet Explorer */
 -user-drag:none; /* CSS3 */
- width:17px;
+ width:15px;
  display: block;
- border-radius: 50%;
+ border-radius: 25%;
 }
 
 footer {
