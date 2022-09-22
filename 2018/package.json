@@ -15,7 +15,7 @@
     "fs": "^0.0.1-security",
     "fs-exists-sync": "^0.1.0",
     "jquery": "^3.5.0",
-    "passport": "^0.4.0",
+    "passport": "^0.6.0",
     "popper.js": "^1.14.6",
     "smalltalk": "^3.2.2",
     "sweetalert2": "^7.33.1"
