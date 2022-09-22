@@ -4,7 +4,7 @@
   "description": "Metrekare Birim Sorgulama Uygulamasi",
   "main": "main.js",
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "electron": "^11.5.0",
     "electron-builder": "^20.38.4",
     "electron-nucleus": "^1.11.0",
