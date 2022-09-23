@@ -5,7 +5,7 @@
   "main": "main.js",
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "electron": "^11.5.0",
+    "electron": "^15.5.5",
     "electron-builder": "^20.38.4",
     "electron-nucleus": "^1.11.0",
     "electron-packager": "^13.0.1",
@@ -21,7 +21,7 @@
     "sweetalert2": "^7.33.1"
   },
   "devDependencies": {
-    "electron": "^11.5.0"
+    "electron": "^15.5.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
