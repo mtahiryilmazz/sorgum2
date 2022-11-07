@@ -4,11 +4,11 @@
   "description": "Metrekare Birim Sorgulama Uygulamasi",
   "main": "main.js",
   "dependencies": {
-    "bootstrap": "^4.2.1",
-    "electron": "^15.5.5",
-    "electron-builder": "^20.38.4",
+    "bootstrap": "^4.3.1",
+    "electron": "^19.0.15",
+    "electron-builder": "^23.5.0",
     "electron-nucleus": "^1.11.0",
-    "electron-packager": "^13.0.1",
+    "electron-packager": "^13.1.0",
     "electron-squirrel-startup": "^1.0.0",
     "electron-winstaller": "^2.7.0",
     "firebase": "^9.10.0",
@@ -21,7 +21,7 @@
     "sweetalert2": "^7.33.1"
   },
   "devDependencies": {
-    "electron": "^15.5.5"
+    "electron": "^19.0.15"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
